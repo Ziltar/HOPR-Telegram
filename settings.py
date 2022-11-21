@@ -1,0 +1,4 @@
+TG_BOT_KEY = ""
+NODE_URL = "" 
+API_KEY = ""
+NODE_HOPR_ADR = ""
