@@ -1,12 +1,9 @@
 import requests
 import json
+from settings import NODE_HOPR_ADR, NODE_URL, API_KEY
 
-NODE_URL = "" 
-API_KEY = ""
-NODE_HOPR_ADR = ""
 
 def sendRequest(method, path, payload):
-    global NODE_URL, API_KEY
     url = NODE_URL +  path
 
     payload = json.dumps(payload)
